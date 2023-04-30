@@ -1,2 +1,2 @@
 # udux
-## Music application dashboard
+## Music application
