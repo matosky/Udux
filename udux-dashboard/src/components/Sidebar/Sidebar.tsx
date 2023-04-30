@@ -25,6 +25,7 @@ const Sidebar = () => {
   }, []);
   return (
     <StyledSidebar ref={navBar}>
+      <div className="line"></div>
       {/* .............Sidebar Top................. */}
       <section className="sidebarTop">
         <div className="avatar">

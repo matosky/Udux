@@ -17,7 +17,14 @@ export const StyledSidebar = styled.div`
   transform: translateX(-100%);
   opacity: 0;
 
- 
+ .line{
+  position: absolute;
+  top: 99px;
+  width: 3px;
+   height: 127px;
+  right: 0;
+  background: #FBBA12;
+ }
 
  .container {
     margin: 0 20px;
