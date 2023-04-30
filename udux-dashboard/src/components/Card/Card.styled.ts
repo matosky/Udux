@@ -129,8 +129,12 @@ export const StyledCard = styled.div`
      height: 228.05px;
     padding: 30px 0 0px 0;
 
+     .innerBox {
+     height: fit-content;
+  }
+
+
      .innerBox .cardImg{
-      margin-top: -60px;
        width: 130.31px;
        height: 130.31px;
      }
