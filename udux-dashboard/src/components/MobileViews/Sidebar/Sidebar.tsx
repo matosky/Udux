@@ -8,8 +8,8 @@ const MobileSideBar = () => {
   return (
     <StyledMobileSidebar>
       <ul>
-        <li>
-          <img src={home} alt="..." />
+        <li >
+          <img className="active" src={home} alt="..." />
         </li>
         <li>
           <img src={discover} alt="..." />

@@ -122,4 +122,26 @@ export const StyledCard = styled.div`
     letter-spacing: 0.04em;
     color: ${(props) => props.theme.colors.primary};
   }
+
+
+    @media screen and (max-width: 765px){
+     width: 181.13px;
+     height: 228.05px;
+    padding: 30px 0 0px 0;
+
+     .innerBox .cardImg{
+      margin-top: -60px;
+       width: 130.31px;
+       height: 130.31px;
+     }
+
+      .innerBox .cardbody{
+       width: 130.31px;
+       max-width: 100%;
+       text-align: center;
+     }
+  }
+
+
+
 `;

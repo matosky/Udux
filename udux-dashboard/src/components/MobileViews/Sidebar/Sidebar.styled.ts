@@ -29,6 +29,10 @@ export const StyledMobileSidebar = styled.div`
     opacity: 0.5;
  }
 
+ .active{
+    color: ${(props) => props.theme.colors.secondary};
+  }
+
   ul{
     width: 80%;
     max-width: 100%;
@@ -57,7 +61,6 @@ export const StyledMobileSidebar = styled.div`
     max-width: 100%;
     height: 28px;
   }
-
 
 
 

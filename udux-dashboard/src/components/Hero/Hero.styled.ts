@@ -66,10 +66,23 @@ export const StyledHero = styled.section`
   }
 
   @media screen and (max-width: 765px) {
+
+    height: 150px;
+    background-position: center center;
+
     .bottom {
       display: none;
     }
 
-    background-position: center center;
+  .logo .imgSmall {
+    width: 18.62px;
+    height: 16.84px;
+  }
+
+   .logo .imgLarge {
+    width: 24.18px;
+    height: 22px;
+  }
+    
   }
 `;

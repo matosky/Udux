@@ -8,6 +8,8 @@ export const StyledGrid = styled.div`
   overflow-x: scroll;
 
 
-
+  @media screen and (max-width: 765px){
+    margin: 50px 0;
+  }
 
 `;
